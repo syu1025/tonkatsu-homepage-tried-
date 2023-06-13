@@ -6,13 +6,13 @@
 
 ** 新規のプロジェクトの場合 **
 1. `cp .env.example .env`
-1. `make create-project'
+1. `make create-project`
 
 ** 既存のプロジェクトをクローンする場合 **
 1. `cp .env.example .env`
 1. このdockerプロジェクトディレクトリで`git clone [対象リポジトリ]`
 1. クローンしたプロジェクトのディレクトリ名を`backend`に変更
-1. `make init'
+1. `make init`
 
 ## 使用可能なmakeコマンド
 
