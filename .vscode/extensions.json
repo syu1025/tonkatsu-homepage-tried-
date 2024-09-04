@@ -1,0 +1,14 @@
+{
+  "recommendations": [
+    // スペルチェック
+    "streetsidesoftware.code-spell-checker",
+    // 誰が書いたソースかわかるようにする
+    "eamodio.gitlens",
+    // laravelのbladeテンプレートのスペースを自動で入れてくれる
+    "austenc.laravel-blade-spacer",
+    // インデントの設定を統一する
+    "editorconfig.editorconfig",
+    // Laravel formatter
+    "open-southeners.laravel-pint",
+  ]
+}

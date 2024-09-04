@@ -14,6 +14,19 @@
 1. クローンしたプロジェクトのディレクトリ名を`backend`に変更
 1. `make init`
 
+## VScode Setting
+
+拡張機能のインストール
+
+```
+code --install-extension　streetsidesoftware.code-spell-checker
+code --install-extension　eamodio.gitlens
+code --install-extension　austenc.laravel-blade-spacer
+code --install-extension　editorconfig.editorconfig
+code --install-extension　open-southeners.laravel-pint
+...
+```
+
 ## 使用可能なmakeコマンド
 
 - `make up`: Dockerコンテナをバックグラウンドで起動します。
