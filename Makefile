@@ -53,6 +53,10 @@ log-db:
 	docker compose logs db
 log-db-watch:
 	docker compose logs --follow db
+npm-install:
+	docker compose exec app npm install
+dev:
+	docker compose exec app npm run dev
 web:
 	docker compose exec web ash
 app:
